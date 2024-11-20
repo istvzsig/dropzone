@@ -1,0 +1,31 @@
+{
+  "name": "@istvzsig/dropzone",
+  "version": "1.0.0",
+  "description": "Drag and drop feature input",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istvzsig/dropzone.git"
+  },
+  "keywords": [
+    "dropzone",
+    "drag",
+    "and",
+    "drop"
+  ],
+  "author": "Istvan Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/istvzsig/dropzone/issues"
+  },
+  "homepage": "https://github.com/istvzsig/dropzone#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9"
+  }
+}
