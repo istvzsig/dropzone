@@ -4,22 +4,13 @@ A React component that provides a drag-and-drop file upload interface. This comp
 
 ## Installation
 
-To use the ```DropZoneComponent``` in your React project, follow these steps:
-
-1. Install the component: You can either copy the component files directly into your project or install it via npm if it's published to a package registry. If you are copying the files, ensure you have the following structure in your project:
-```
-/src
-  /features
-    /dropzone
-      /component
-        DropZoneComponent.jsx
-        drop-zone.css
-      hook.js
-      index.js
+1. To install the `DropZoneComponent` in your React project, you can install it via npm. Run the following command in your terminal:
+```bash
+npm install @istvzsig/dropzone
 ```
 2. Import the component: In the file where you want to use the ```DropZoneComponent```, import it as follows:
 ```javascript
-import DropZoneComponent from './components/DropZoneComponent';
+import DropZoneComponent from '@istvzsig/dropzone';
 
 ```
 3. Use the component: You can now use the ```DropZoneComponent``` in your JSX:
